@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="build/main.css">
+</head>
+
+<body>
+    <div class="h-screen flex flex-col bg-cover bg-center" style="background-image: url(images/colum.jpg);">
+        <header class="flex justify-end w-full p-5 space-x-4">
+            <div class="flex items-center space-x-4">
+                <a class="text-[15px] cursor-pointer text-white hover:underline">Gmail</a>
+                <a class="text-[15px] cursor-pointer text-white hover:underline">Hình ảnh</a>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid-dots w-7 h-7 cursor-pointer
+            hover:bg-gray-700 rounded-full p-[3px]" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                <path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+            </svg>
+            <img src="./images/shinobi.jpg" alt=""
+                class="h-7 rounded-full cursor-pointer border hover:border-2 hover:border-gray-300">
+        </header>
+
+        <section class="mt-36 h-32 grow">
+            <form action="" class="flex flex-col items-center justify-center">
+                <div class="">
+                    <img src="images/google_logo.svg" alt="" class="h-24">
+                </div>
+                <div class="flex items-center w-full bg-white border border-gray-300 rounded-full py-3 px-5
+                hover:shadow-lg max-w-2xl mt-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 text-gray-950 mr-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <input type="text" class="flex-row focus:outline-none w-full"
+                        placeholder="Tìm kiếm trên Google hoặc nhập một url">
+                    <img src="images/mic.svg" alt="" class="w-6 h-6 cursor-pointer mr-2">
+                    <img src="images/camera.svg" alt="" class="w-6 h-6 cursor-pointer mr-2">
+                </div>
+                <div class="flex flex-row mt-8 space-x-2">
+                    <div class="h-32 hover:bg-gray-300 p-3 hover:bg-opacity-25 text-gray-100 rounded-[5px]">
+                        <button class="flex-row justify-center mt-5 ml-7">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                class="icon icon-tabler icon-tabler-plus bg-blue-900 rounded-full p-1" width="44"
+                                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M12 5l0 14" />
+                                <path d="M5 12l14 0" />
+                            </svg></button>
+                        <p class="text-lg drop-shadow-2xl text-black">Thêm lối tắt</p>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer class="flex justify-end w-full p-5">
+            <div class="flex items-center justify-center bg-gray-900 opacity-70 rounded-full h-7 w-7 cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="size-6 p-[5px] text-white ">
+                    <path d="M21.731 2.269a2.625 2.625 0 0 0-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 0 0 0-3.712ZM19.513 8.199l-3.712-3.712-12.15 12.15a5.25 5.25 0 0 0-1.32 2.214l-.8 2.685a.75.75 0 0 0 .933.933l2.685-.8a5.25 5.25 0 0 0 2.214-1.32L19.513 8.2Z" />
+                </svg>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
